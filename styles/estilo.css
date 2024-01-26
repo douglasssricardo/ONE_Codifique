@@ -1,0 +1,236 @@
+body {
+    background-image: radial-gradient(circle at 39.95% 50%, #ffdaff 0, #faceff 25%, #e2c0f1 50%, #cbb2dd 75%, #b6a5c9 100%);
+    position: relative;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.vermelho {
+    background-color: rgb(166, 36, 226);
+}
+
+.amarelo {
+    background-color: #001ac4;
+}
+
+.verde {
+    background-color: black;
+}
+
+.header-bg {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: max-content;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    filter: drop-shadow(5px 5px 0 #faceff);
+}
+
+.header-img {
+    background-image: radial-gradient(circle at 52.67% 80.54%, #a532ff 0, #732bff 25%, #3522e2 50%, #001ac4 75%, #0014a7 100%);
+    padding: 0.2em;
+    border-right: 2px solid black;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+}
+
+.header-bg h1 {
+    padding: 0 0.5em;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+.header-bg h1 span {
+    font-weight: normal;
+    font-size: 0.7em;
+}
+
+.card-principal {
+    background-color: whitesmoke;
+    border: 2px solid rgba(0, 0, 0);
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    filter: drop-shadow(5px 5px 0 #ffffff);
+}
+
+.card-navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    padding: 5px 0;
+    background-image: radial-gradient(circle at 52.67% 80.54%, #a532ff 0, #732bff 25%, #3522e2 50%, #001ac4 75%, #0014a7 100%);
+    border-bottom: 2px solid black;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-nav-botoes,
+.card-nav-info {
+    display: flex;
+    align-items: center;
+}
+
+.card-nav-info p {
+    color: #eeeeee;
+    margin: 0 20px 0 5px;
+}
+
+.div-botao {
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    border: 2px;
+    border-radius: 100%;
+}
+
+.div-botao:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+.campo-decodificacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#txt-cod {
+    width: 100%;
+    padding: 20px 5px;
+    border: none;
+    resize: none;
+    outline: none;
+    background: whitesmoke;
+    font-family: 'PT Serif';
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+    background-image: radial-gradient(circle at 52.67% 80.54%, #a532ff 0, #732bff 25%, #3522e2 50%, #001ac4 75%, #0014a7 100%);
+    border-radius: 0 0 10px 10px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    border-radius: 10px;
+    background-image: radial-gradient(circle at 52.67% 80.54%, #a532ff 0, #732bff 25%, #3522e2 50%, #001ac4 75%, #0014a7 100%);
+}
+
+.botao img {
+    padding: 0 5px;
+}
+
+.btn-deco {
+    background: white;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: black;
+    border-left: 2px solid rgb(6, 6, 6);
+    transition: all 0.1s linear;
+    border-radius: 10px;
+}
+
+.btn-deco:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-deco:active {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}
+
+.card-mensagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: 2px solid rgba(0, 0, 0);
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px 0;
+    filter: drop-shadow(5px 5px 0 #ffffff);
+}
+
+.interrogacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+#txt-resposta {
+    width: 90%;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    word-break: break-word;
+    color: black;
+}
+
+#btn-copiar {
+    display: none;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+footer {
+    background-image: radial-gradient(circle at 52.67% 80.54%, #a532ff 0, #732bff 25%, #3522e2 50%, #001ac4 75%, #0014a7 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5em;
+    padding: 2em 0;
+    filter: drop-shadow(-20px 0 20px rgba(0, 0, 0, 0.5));
+}
+
+footer p {
+    font-size: 15pt;
+    margin-top: 3px;
+    color: rgba(255, 255, 255, .6);
+    font-style: italic;
+}
+
+footer h3 {
+    font-family: 'Poppins';
+    font-size: 17pt;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.redes-sociais {
+    margin-top: 10px;
+}
